@@ -99,7 +99,7 @@ export default function BosquePage() {
         {pokemonVisible && !captured && (
           <motion.img
             src="/images/pokemon.gif"
-            alt="Pokémon"
+            alt=""
             className="absolute w-24 h-24"
             style={{ top: pokemonPosition.y, left: pokemonPosition.x }}
             initial={{ opacity: 0 }}
@@ -115,7 +115,7 @@ export default function BosquePage() {
         {pokeball && !captured && (
           <motion.img
             src="/images/pokeball-launch.gif"
-            alt="Pokéball"
+            alt=""
             className="absolute w-24 h-24"
             style={{ top: pokeball.y - 12, left: pokeball.x - 12 }}
             initial={{ top: pokeball.y - 12, left: pokeball.x - 12 }}
